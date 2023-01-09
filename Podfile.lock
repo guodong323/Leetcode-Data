@@ -1,0 +1,21 @@
+PODS:
+  - FlexibleGauge (0.1.0)
+
+DEPENDENCIES:
+  - FlexibleGauge (from `https://github.com/mohsinalimat/FlexibleGauge.git`)
+
+EXTERNAL SOURCES:
+  FlexibleGauge:
+    :git: https://github.com/mohsinalimat/FlexibleGauge.git
+
+CHECKOUT OPTIONS:
+  FlexibleGauge:
+    :commit: 83bbb342cf48b160583a9bb964030b28d98f2ae6
+    :git: https://github.com/mohsinalimat/FlexibleGauge.git
+
+SPEC CHECKSUMS:
+  FlexibleGauge: 37be098ee29707ff00ac1859fc0654dd81a015f8
+
+PODFILE CHECKSUM: fe6a2dcb85a9d83c42ebb9467150c13ae3745422
+
+COCOAPODS: 1.11.2
