@@ -11,15 +11,15 @@
 		5308ACEFC809F4CAFF99C509 /* Pods_LeetcodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA95E08E641B25DBA01FF441 /* Pods_LeetcodeTests.framework */; };
 		A707DA2C19E836E69CD37F29 /* Pods_Leetcode_LeetcodeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A53EDB85D9F95872CCC208 /* Pods_Leetcode_LeetcodeUITests.framework */; };
 		BEC806AB296C67A7000F3B90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806AA296C67A7000F3B90 /* AppDelegate.m */; };
-		BEC806AE296C67A7000F3B90 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806AD296C67A7000F3B90 /* SceneDelegate.m */; };
 		BEC806B1296C67A7000F3B90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806B0296C67A7000F3B90 /* ViewController.m */; };
-		BEC806B4296C67A7000F3B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC806B2296C67A7000F3B90 /* Main.storyboard */; };
 		BEC806B6296C67A7000F3B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC806B5296C67A7000F3B90 /* Assets.xcassets */; };
 		BEC806B9296C67A7000F3B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC806B7296C67A7000F3B90 /* LaunchScreen.storyboard */; };
 		BEC806BC296C67A7000F3B90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806BB296C67A7000F3B90 /* main.m */; };
 		BEC806C6296C67A8000F3B90 /* LeetcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806C5296C67A8000F3B90 /* LeetcodeTests.m */; };
 		BEC806D0296C67A8000F3B90 /* LeetcodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806CF296C67A8000F3B90 /* LeetcodeUITests.m */; };
 		BEC806D2296C67A8000F3B90 /* LeetcodeUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806D1296C67A8000F3B90 /* LeetcodeUITestsLaunchTests.m */; };
+		BEC806E0296DC04A000F3B90 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806DF296DC04A000F3B90 /* BaseViewController.m */; };
+		BEC806E2296DC4F7000F3B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC806E1296DC4F7000F3B90 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +49,8 @@
 		BEC806A6296C67A7000F3B90 /* Leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC806A9296C67A7000F3B90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEC806AA296C67A7000F3B90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BEC806AC296C67A7000F3B90 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		BEC806AD296C67A7000F3B90 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		BEC806AF296C67A7000F3B90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BEC806B0296C67A7000F3B90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BEC806B3296C67A7000F3B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEC806B5296C67A7000F3B90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC806B8296C67A7000F3B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEC806BA296C67A7000F3B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +60,9 @@
 		BEC806CB296C67A8000F3B90 /* LeetcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC806CF296C67A8000F3B90 /* LeetcodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetcodeUITests.m; sourceTree = "<group>"; };
 		BEC806D1296C67A8000F3B90 /* LeetcodeUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetcodeUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BEC806DE296DC04A000F3B90 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BEC806DF296DC04A000F3B90 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BEC806E1296DC4F7000F3B90 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C655DA573EDA38FF0EE7ED35 /* Pods-LeetcodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetcodeTests.debug.xcconfig"; path = "Target Support Files/Pods-LeetcodeTests/Pods-LeetcodeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7A53EDB85D9F95872CCC208 /* Pods_Leetcode_LeetcodeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leetcode_LeetcodeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA95E08E641B25DBA01FF441 /* Pods_LeetcodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeetcodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,15 +133,15 @@
 			children = (
 				BEC806A9296C67A7000F3B90 /* AppDelegate.h */,
 				BEC806AA296C67A7000F3B90 /* AppDelegate.m */,
-				BEC806AC296C67A7000F3B90 /* SceneDelegate.h */,
-				BEC806AD296C67A7000F3B90 /* SceneDelegate.m */,
 				BEC806AF296C67A7000F3B90 /* ViewController.h */,
 				BEC806B0296C67A7000F3B90 /* ViewController.m */,
-				BEC806B2296C67A7000F3B90 /* Main.storyboard */,
+				BEC806E1296DC4F7000F3B90 /* Main.storyboard */,
 				BEC806B5296C67A7000F3B90 /* Assets.xcassets */,
 				BEC806B7296C67A7000F3B90 /* LaunchScreen.storyboard */,
 				BEC806BA296C67A7000F3B90 /* Info.plist */,
 				BEC806BB296C67A7000F3B90 /* main.m */,
+				BEC806DE296DC04A000F3B90 /* BaseViewController.h */,
+				BEC806DF296DC04A000F3B90 /* BaseViewController.m */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -173,7 +173,6 @@
 				C655DA573EDA38FF0EE7ED35 /* Pods-LeetcodeTests.debug.xcconfig */,
 				759E8C1E6B5278305977DEC9 /* Pods-LeetcodeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -285,9 +284,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC806E2296DC4F7000F3B90 /* Main.storyboard in Resources */,
 				BEC806B9296C67A7000F3B90 /* LaunchScreen.storyboard in Resources */,
 				BEC806B6296C67A7000F3B90 /* Assets.xcassets in Resources */,
-				BEC806B4296C67A7000F3B90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +415,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC806B1296C67A7000F3B90 /* ViewController.m in Sources */,
+				BEC806E0296DC04A000F3B90 /* BaseViewController.m in Sources */,
 				BEC806AB296C67A7000F3B90 /* AppDelegate.m in Sources */,
 				BEC806BC296C67A7000F3B90 /* main.m in Sources */,
-				BEC806AE296C67A7000F3B90 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,14 +454,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BEC806B2296C67A7000F3B90 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEC806B3296C67A7000F3B90 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BEC806B7296C67A7000F3B90 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
