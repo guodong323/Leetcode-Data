@@ -20,6 +20,8 @@
 		BEC806D2296C67A8000F3B90 /* LeetcodeUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806D1296C67A8000F3B90 /* LeetcodeUITestsLaunchTests.m */; };
 		BEC806E0296DC04A000F3B90 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806DF296DC04A000F3B90 /* BaseViewController.m */; };
 		BEC806E2296DC4F7000F3B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC806E1296DC4F7000F3B90 /* Main.storyboard */; };
+		BEC806E5297595E8000F3B90 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806E4297595E8000F3B90 /* CardView.m */; };
+		BEC806E829759D20000F3B90 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806E729759D20000F3B90 /* LineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		BEC806DE296DC04A000F3B90 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		BEC806DF296DC04A000F3B90 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		BEC806E1296DC4F7000F3B90 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BEC806E3297595E8000F3B90 /* CardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		BEC806E4297595E8000F3B90 /* CardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		BEC806E629759D20000F3B90 /* LineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		BEC806E729759D20000F3B90 /* LineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
 		C655DA573EDA38FF0EE7ED35 /* Pods-LeetcodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetcodeTests.debug.xcconfig"; path = "Target Support Files/Pods-LeetcodeTests/Pods-LeetcodeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7A53EDB85D9F95872CCC208 /* Pods_Leetcode_LeetcodeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leetcode_LeetcodeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA95E08E641B25DBA01FF441 /* Pods_LeetcodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeetcodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +148,10 @@
 				BEC806BB296C67A7000F3B90 /* main.m */,
 				BEC806DE296DC04A000F3B90 /* BaseViewController.h */,
 				BEC806DF296DC04A000F3B90 /* BaseViewController.m */,
+				BEC806E3297595E8000F3B90 /* CardView.h */,
+				BEC806E4297595E8000F3B90 /* CardView.m */,
+				BEC806E629759D20000F3B90 /* LineView.h */,
+				BEC806E729759D20000F3B90 /* LineView.m */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -416,6 +426,8 @@
 			files = (
 				BEC806B1296C67A7000F3B90 /* ViewController.m in Sources */,
 				BEC806E0296DC04A000F3B90 /* BaseViewController.m in Sources */,
+				BEC806E829759D20000F3B90 /* LineView.m in Sources */,
+				BEC806E5297595E8000F3B90 /* CardView.m in Sources */,
 				BEC806AB296C67A7000F3B90 /* AppDelegate.m in Sources */,
 				BEC806BC296C67A7000F3B90 /* main.m in Sources */,
 			);
@@ -602,6 +614,10 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"-Wno-shorten-64-to-32",
+					"-Who-unused-variable",
+				);
 			};
 			name = Debug;
 		};
@@ -630,6 +646,10 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"-Wno-shorten-64-to-32",
+					"-Who-unused-variable",
+				);
 			};
 			name = Release;
 		};

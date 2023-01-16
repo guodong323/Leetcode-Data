@@ -1,14 +1,19 @@
 PODS:
   - FlexibleGauge (0.1.0)
   - Masonry (1.1.0)
+  - ORCharts/Line (2.1.8):
+    - ORCharts/Util
+  - ORCharts/Util (2.1.8)
 
 DEPENDENCIES:
   - FlexibleGauge (from `https://github.com/mohsinalimat/FlexibleGauge.git`)
   - Masonry
+  - ORCharts/Line
 
 SPEC REPOS:
   trunk:
     - Masonry
+    - ORCharts
 
 EXTERNAL SOURCES:
   FlexibleGauge:
@@ -22,7 +27,8 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   FlexibleGauge: 37be098ee29707ff00ac1859fc0654dd81a015f8
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ORCharts: af561ca7e1692178be3a5c8e68c667dabd971b04
 
-PODFILE CHECKSUM: f2e3911b5f2a3a7a88c12d49684dc801ac3a580d
+PODFILE CHECKSUM: f60444018749ffcae6f0a55595e378808ba67803
 
 COCOAPODS: 1.11.2
