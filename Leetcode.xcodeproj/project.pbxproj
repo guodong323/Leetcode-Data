@@ -22,6 +22,9 @@
 		BEC806E2296DC4F7000F3B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC806E1296DC4F7000F3B90 /* Main.storyboard */; };
 		BEC806E5297595E8000F3B90 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806E4297595E8000F3B90 /* CardView.m */; };
 		BEC806E829759D20000F3B90 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806E729759D20000F3B90 /* LineView.m */; };
+		BEC806EB29783EF1000F3B90 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806EA29783EF1000F3B90 /* TableViewController.m */; };
+		BEC806EE29784573000F3B90 /* ListView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806ED29784573000F3B90 /* ListView.m */; };
+		BEC806F129784E56000F3B90 /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806F029784E56000F3B90 /* TitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,12 @@
 		BEC806E4297595E8000F3B90 /* CardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 		BEC806E629759D20000F3B90 /* LineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
 		BEC806E729759D20000F3B90 /* LineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
+		BEC806E929783EF1000F3B90 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		BEC806EA29783EF1000F3B90 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		BEC806EC29784573000F3B90 /* ListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListView.h; sourceTree = "<group>"; };
+		BEC806ED29784573000F3B90 /* ListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListView.m; sourceTree = "<group>"; };
+		BEC806EF29784E56000F3B90 /* TitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		BEC806F029784E56000F3B90 /* TitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
 		C655DA573EDA38FF0EE7ED35 /* Pods-LeetcodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetcodeTests.debug.xcconfig"; path = "Target Support Files/Pods-LeetcodeTests/Pods-LeetcodeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7A53EDB85D9F95872CCC208 /* Pods_Leetcode_LeetcodeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leetcode_LeetcodeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA95E08E641B25DBA01FF441 /* Pods_LeetcodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeetcodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +161,12 @@
 				BEC806E4297595E8000F3B90 /* CardView.m */,
 				BEC806E629759D20000F3B90 /* LineView.h */,
 				BEC806E729759D20000F3B90 /* LineView.m */,
+				BEC806E929783EF1000F3B90 /* TableViewController.h */,
+				BEC806EA29783EF1000F3B90 /* TableViewController.m */,
+				BEC806EC29784573000F3B90 /* ListView.h */,
+				BEC806ED29784573000F3B90 /* ListView.m */,
+				BEC806EF29784E56000F3B90 /* TitleView.h */,
+				BEC806F029784E56000F3B90 /* TitleView.m */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -428,7 +443,10 @@
 				BEC806E0296DC04A000F3B90 /* BaseViewController.m in Sources */,
 				BEC806E829759D20000F3B90 /* LineView.m in Sources */,
 				BEC806E5297595E8000F3B90 /* CardView.m in Sources */,
+				BEC806EE29784573000F3B90 /* ListView.m in Sources */,
 				BEC806AB296C67A7000F3B90 /* AppDelegate.m in Sources */,
+				BEC806EB29783EF1000F3B90 /* TableViewController.m in Sources */,
+				BEC806F129784E56000F3B90 /* TitleView.m in Sources */,
 				BEC806BC296C67A7000F3B90 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

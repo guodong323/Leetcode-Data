@@ -14,6 +14,12 @@
 
 @implementation BaseViewController
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+
+    self.tabBarController.title = @"做题数据"; // 有效
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -93,6 +99,7 @@
         make.right.mas_equalTo(self.lineView.mas_right);
         make.height.mas_equalTo(400);
     }];
+    
 }
 
 - (LineView *)lineView {
@@ -145,12 +152,30 @@
     return _pieView3;
 }
 
-- (UIView *)cardView {
+- (ListView *)cardView {
     if (!_cardView) {
-        _cardView = [[UIView alloc] init];
+        _cardView = [[ListView alloc] init];
         _cardView.backgroundColor = [UIColor lightGrayColor];
         _cardView.layer.cornerRadius = 10;
         [self.view addSubview:_cardView];
+        [self.cardView.easyView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(10);
+            make.left.mas_equalTo(self.cardView).mas_offset(10);
+            make.right.mas_equalTo(self.cardView).mas_offset(-10);
+            make.height.mas_equalTo(self.cardView.mas_height).dividedBy(3).mas_offset(-20);
+        }];
+        [self.cardView.midView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(self.cardView.easyView.mas_bottom).mas_offset(20);
+            make.left.mas_equalTo(self.cardView).mas_offset(10);
+            make.right.mas_equalTo(self.cardView).mas_offset(-10);
+            make.height.mas_equalTo(self.cardView.mas_height).dividedBy(3).mas_offset(-20);
+        }];
+        [self.cardView.hardView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(self.cardView.midView.mas_bottom).mas_offset(20);
+            make.left.mas_equalTo(self.cardView).mas_offset(10);
+            make.right.mas_equalTo(self.cardView).mas_offset(-10);
+            make.height.mas_equalTo(self.cardView.mas_height).dividedBy(3).mas_offset(-20);
+        }];
     }
     return _cardView;
 }

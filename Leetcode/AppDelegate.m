@@ -7,6 +7,7 @@
 
 #import "AppDelegate.h"
 #import "BaseViewController.h"
+#import "TableViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,13 +20,14 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.tabBar.backgroundColor = [UIColor whiteColor];
     BaseViewController *viewController = [[BaseViewController alloc] init];
     viewController.view.backgroundColor = [UIColor yellowColor];
-    viewController.tabBarItem.title = @"图库";
+    viewController.tabBarItem.title = @"数据";
 //        viewController.tabBarItem.image = [UIImage imageNamed:@"ic_gallery_nav_gray"];
-    UIViewController *controller2 = [[UIViewController alloc] init];
-    controller2.view.backgroundColor = [UIColor greenColor];
-    controller2.tabBarItem.title = @"壁纸";
+    TableViewController *controller2 = [[TableViewController alloc] init];
+//    controller2.view.backgroundColor = [UIColor greenColor];
+    controller2.tabBarItem.title = @"记录";
 //        controller2.tabBarItem.image = [UIImage imageNamed:@"ic_bing_nav_gray"];
 
     [tabBarController setViewControllers: @[viewController, controller2]];
