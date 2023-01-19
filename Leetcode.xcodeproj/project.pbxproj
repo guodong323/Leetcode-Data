@@ -10,6 +10,15 @@
 		38E4F920E712FC38840F6865 /* Pods_Leetcode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D16AC0CA82D3BB09F6B44F8 /* Pods_Leetcode.framework */; };
 		5308ACEFC809F4CAFF99C509 /* Pods_LeetcodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA95E08E641B25DBA01FF441 /* Pods_LeetcodeTests.framework */; };
 		A707DA2C19E836E69CD37F29 /* Pods_Leetcode_LeetcodeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A53EDB85D9F95872CCC208 /* Pods_Leetcode_LeetcodeUITests.framework */; };
+		BE8B645929797E89007F39CD /* CYCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B644E29797E89007F39CD /* CYCenterButton.m */; };
+		BE8B645A29797E89007F39CD /* CYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B644F29797E89007F39CD /* CYButton.m */; };
+		BE8B645B29797E89007F39CD /* CYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B645029797E89007F39CD /* CYTabBarController.m */; };
+		BE8B645C29797E89007F39CD /* CYBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B645229797E89007F39CD /* CYBadgeView.m */; };
+		BE8B645D29797E89007F39CD /* CYTabBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE8B645429797E89007F39CD /* CYTabBar.bundle */; };
+		BE8B645E29797E89007F39CD /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B645729797E89007F39CD /* CustomTabBar.m */; };
+		BE8B646229797F5B007F39CD /* PlusAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B646029797F5B007F39CD /* PlusAnimate.m */; };
+		BE8B646729798C5F007F39CD /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B646629798C5F007F39CD /* TableViewController.m */; };
+		BE8B646A29798E08007F39CD /* TitleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B646929798E08007F39CD /* TitleViewCell.m */; };
 		BEC806AB296C67A7000F3B90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806AA296C67A7000F3B90 /* AppDelegate.m */; };
 		BEC806B1296C67A7000F3B90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806B0296C67A7000F3B90 /* ViewController.m */; };
 		BEC806B6296C67A7000F3B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC806B5296C67A7000F3B90 /* Assets.xcassets */; };
@@ -22,7 +31,6 @@
 		BEC806E2296DC4F7000F3B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC806E1296DC4F7000F3B90 /* Main.storyboard */; };
 		BEC806E5297595E8000F3B90 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806E4297595E8000F3B90 /* CardView.m */; };
 		BEC806E829759D20000F3B90 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806E729759D20000F3B90 /* LineView.m */; };
-		BEC806EB29783EF1000F3B90 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806EA29783EF1000F3B90 /* TableViewController.m */; };
 		BEC806EE29784573000F3B90 /* ListView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806ED29784573000F3B90 /* ListView.m */; };
 		BEC806F129784E56000F3B90 /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806F029784E56000F3B90 /* TitleView.m */; };
 /* End PBXBuildFile section */
@@ -51,6 +59,23 @@
 		8D9A383943A220B2DC8C6B47 /* Pods-Leetcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leetcode.release.xcconfig"; path = "Target Support Files/Pods-Leetcode/Pods-Leetcode.release.xcconfig"; sourceTree = "<group>"; };
 		9D16AC0CA82D3BB09F6B44F8 /* Pods_Leetcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leetcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF8D2AC5644DF336B9D3531 /* Pods-Leetcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leetcode.debug.xcconfig"; path = "Target Support Files/Pods-Leetcode/Pods-Leetcode.debug.xcconfig"; sourceTree = "<group>"; };
+		BE8B644E29797E89007F39CD /* CYCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCenterButton.m; sourceTree = "<group>"; };
+		BE8B644F29797E89007F39CD /* CYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYButton.m; sourceTree = "<group>"; };
+		BE8B645029797E89007F39CD /* CYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYTabBarController.m; sourceTree = "<group>"; };
+		BE8B645129797E89007F39CD /* CustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		BE8B645229797E89007F39CD /* CYBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBadgeView.m; sourceTree = "<group>"; };
+		BE8B645329797E89007F39CD /* CYCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCenterButton.h; sourceTree = "<group>"; };
+		BE8B645429797E89007F39CD /* CYTabBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CYTabBar.bundle; sourceTree = "<group>"; };
+		BE8B645529797E89007F39CD /* CYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYTabBarController.h; sourceTree = "<group>"; };
+		BE8B645629797E89007F39CD /* CYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYButton.h; sourceTree = "<group>"; };
+		BE8B645729797E89007F39CD /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		BE8B645829797E89007F39CD /* CYBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBadgeView.h; sourceTree = "<group>"; };
+		BE8B646029797F5B007F39CD /* PlusAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlusAnimate.m; sourceTree = "<group>"; };
+		BE8B646129797F5B007F39CD /* PlusAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlusAnimate.h; sourceTree = "<group>"; };
+		BE8B646529798C5F007F39CD /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		BE8B646629798C5F007F39CD /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		BE8B646829798E08007F39CD /* TitleViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleViewCell.h; sourceTree = "<group>"; };
+		BE8B646929798E08007F39CD /* TitleViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleViewCell.m; sourceTree = "<group>"; };
 		BEC806A6296C67A7000F3B90 /* Leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC806A9296C67A7000F3B90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEC806AA296C67A7000F3B90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,8 +97,6 @@
 		BEC806E4297595E8000F3B90 /* CardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 		BEC806E629759D20000F3B90 /* LineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
 		BEC806E729759D20000F3B90 /* LineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
-		BEC806E929783EF1000F3B90 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		BEC806EA29783EF1000F3B90 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		BEC806EC29784573000F3B90 /* ListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListView.h; sourceTree = "<group>"; };
 		BEC806ED29784573000F3B90 /* ListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListView.m; sourceTree = "<group>"; };
 		BEC806EF29784E56000F3B90 /* TitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
@@ -121,6 +144,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BE8B644D29797E89007F39CD /* CYTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BE8B645F29797F5B007F39CD /* PublishAnimate */,
+				BE8B644E29797E89007F39CD /* CYCenterButton.m */,
+				BE8B644F29797E89007F39CD /* CYButton.m */,
+				BE8B645029797E89007F39CD /* CYTabBarController.m */,
+				BE8B645129797E89007F39CD /* CustomTabBar.h */,
+				BE8B645229797E89007F39CD /* CYBadgeView.m */,
+				BE8B645329797E89007F39CD /* CYCenterButton.h */,
+				BE8B645429797E89007F39CD /* CYTabBar.bundle */,
+				BE8B645529797E89007F39CD /* CYTabBarController.h */,
+				BE8B645629797E89007F39CD /* CYButton.h */,
+				BE8B645729797E89007F39CD /* CustomTabBar.m */,
+				BE8B645829797E89007F39CD /* CYBadgeView.h */,
+			);
+			path = CYTabBar;
+			sourceTree = "<group>";
+		};
+		BE8B645F29797F5B007F39CD /* PublishAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				BE8B646029797F5B007F39CD /* PlusAnimate.m */,
+				BE8B646129797F5B007F39CD /* PlusAnimate.h */,
+			);
+			path = PublishAnimate;
+			sourceTree = "<group>";
+		};
+		BE8B646429798C4A007F39CD /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				BE8B646529798C5F007F39CD /* TableViewController.h */,
+				BE8B646629798C5F007F39CD /* TableViewController.m */,
+				BE8B646829798E08007F39CD /* TitleViewCell.h */,
+				BE8B646929798E08007F39CD /* TitleViewCell.m */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
 		BEC8069D296C67A7000F3B90 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +208,8 @@
 		BEC806A8296C67A7000F3B90 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				BE8B646429798C4A007F39CD /* Table */,
+				BE8B644D29797E89007F39CD /* CYTabBar */,
 				BEC806A9296C67A7000F3B90 /* AppDelegate.h */,
 				BEC806AA296C67A7000F3B90 /* AppDelegate.m */,
 				BEC806AF296C67A7000F3B90 /* ViewController.h */,
@@ -161,8 +225,6 @@
 				BEC806E4297595E8000F3B90 /* CardView.m */,
 				BEC806E629759D20000F3B90 /* LineView.h */,
 				BEC806E729759D20000F3B90 /* LineView.m */,
-				BEC806E929783EF1000F3B90 /* TableViewController.h */,
-				BEC806EA29783EF1000F3B90 /* TableViewController.m */,
 				BEC806EC29784573000F3B90 /* ListView.h */,
 				BEC806ED29784573000F3B90 /* ListView.m */,
 				BEC806EF29784E56000F3B90 /* TitleView.h */,
@@ -312,6 +374,7 @@
 				BEC806E2296DC4F7000F3B90 /* Main.storyboard in Resources */,
 				BEC806B9296C67A7000F3B90 /* LaunchScreen.storyboard in Resources */,
 				BEC806B6296C67A7000F3B90 /* Assets.xcassets in Resources */,
+				BE8B645D29797E89007F39CD /* CYTabBar.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,15 +502,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8B645A29797E89007F39CD /* CYButton.m in Sources */,
 				BEC806B1296C67A7000F3B90 /* ViewController.m in Sources */,
+				BE8B646229797F5B007F39CD /* PlusAnimate.m in Sources */,
 				BEC806E0296DC04A000F3B90 /* BaseViewController.m in Sources */,
 				BEC806E829759D20000F3B90 /* LineView.m in Sources */,
 				BEC806E5297595E8000F3B90 /* CardView.m in Sources */,
+				BE8B645929797E89007F39CD /* CYCenterButton.m in Sources */,
+				BE8B646A29798E08007F39CD /* TitleViewCell.m in Sources */,
+				BE8B646729798C5F007F39CD /* TableViewController.m in Sources */,
 				BEC806EE29784573000F3B90 /* ListView.m in Sources */,
 				BEC806AB296C67A7000F3B90 /* AppDelegate.m in Sources */,
-				BEC806EB29783EF1000F3B90 /* TableViewController.m in Sources */,
 				BEC806F129784E56000F3B90 /* TitleView.m in Sources */,
 				BEC806BC296C67A7000F3B90 /* main.m in Sources */,
+				BE8B645C29797E89007F39CD /* CYBadgeView.m in Sources */,
+				BE8B645E29797E89007F39CD /* CustomTabBar.m in Sources */,
+				BE8B645B29797E89007F39CD /* CYTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,8 @@
 #import "AppDelegate.h"
 #import "BaseViewController.h"
 #import "TableViewController.h"
+#import "CYTabBarController.h"
+#import "TableViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,16 +21,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    CYTabBarController * tabBarController = [[CYTabBarController alloc]init];
     tabBarController.tabBar.backgroundColor = [UIColor whiteColor];
     BaseViewController *viewController = [[BaseViewController alloc] init];
     viewController.view.backgroundColor = [UIColor yellowColor];
     viewController.tabBarItem.title = @"数据";
-//        viewController.tabBarItem.image = [UIImage imageNamed:@"ic_gallery_nav_gray"];
+    viewController.tabBarItem.image = [UIImage imageNamed:@"Btn01"];
     TableViewController *controller2 = [[TableViewController alloc] init];
 //    controller2.view.backgroundColor = [UIColor greenColor];
     controller2.tabBarItem.title = @"记录";
-//        controller2.tabBarItem.image = [UIImage imageNamed:@"ic_bing_nav_gray"];
+    controller2.tabBarItem.image = [UIImage imageNamed:@"Btn02"];
 
     [tabBarController setViewControllers: @[viewController, controller2]];
     
