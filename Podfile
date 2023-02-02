@@ -7,6 +7,7 @@ target 'Leetcode' do
 
   # Pods for Leetcode
   pod 'FlexibleGauge', :git => "https://github.com/mohsinalimat/FlexibleGauge.git"
+  pod 'MJRefresh'
   pod 'Masonry'
   pod 'ORCharts/Line'  
   target 'LeetcodeTests' do

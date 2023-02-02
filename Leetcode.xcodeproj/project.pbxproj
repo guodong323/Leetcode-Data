@@ -19,6 +19,8 @@
 		BE8B646229797F5B007F39CD /* PlusAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B646029797F5B007F39CD /* PlusAnimate.m */; };
 		BE8B646729798C5F007F39CD /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B646629798C5F007F39CD /* TableViewController.m */; };
 		BE8B646A29798E08007F39CD /* TitleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B646929798E08007F39CD /* TitleViewCell.m */; };
+		BE8D7339298966BA001CB176 /* 庞门正道标题体2.0增强版.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE8D7338298966BA001CB176 /* 庞门正道标题体2.0增强版.ttf */; };
+		BE8D733D29896A90001CB176 /* aaa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE8D733C29896A90001CB176 /* aaa.ttf */; };
 		BEC806AB296C67A7000F3B90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806AA296C67A7000F3B90 /* AppDelegate.m */; };
 		BEC806B1296C67A7000F3B90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC806B0296C67A7000F3B90 /* ViewController.m */; };
 		BEC806B6296C67A7000F3B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC806B5296C67A7000F3B90 /* Assets.xcassets */; };
@@ -76,6 +78,8 @@
 		BE8B646629798C5F007F39CD /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		BE8B646829798E08007F39CD /* TitleViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleViewCell.h; sourceTree = "<group>"; };
 		BE8B646929798E08007F39CD /* TitleViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleViewCell.m; sourceTree = "<group>"; };
+		BE8D7338298966BA001CB176 /* 庞门正道标题体2.0增强版.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "庞门正道标题体2.0增强版.ttf"; sourceTree = "<group>"; };
+		BE8D733C29896A90001CB176 /* aaa.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = aaa.ttf; sourceTree = "<group>"; };
 		BEC806A6296C67A7000F3B90 /* Leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC806A9296C67A7000F3B90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEC806AA296C67A7000F3B90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -208,6 +212,8 @@
 		BEC806A8296C67A7000F3B90 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				BE8D733C29896A90001CB176 /* aaa.ttf */,
+				BE8D7338298966BA001CB176 /* 庞门正道标题体2.0增强版.ttf */,
 				BE8B646429798C4A007F39CD /* Table */,
 				BE8B644D29797E89007F39CD /* CYTabBar */,
 				BEC806A9296C67A7000F3B90 /* AppDelegate.h */,
@@ -371,9 +377,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8D733D29896A90001CB176 /* aaa.ttf in Resources */,
 				BEC806E2296DC4F7000F3B90 /* Main.storyboard in Resources */,
 				BEC806B9296C67A7000F3B90 /* LaunchScreen.storyboard in Resources */,
 				BEC806B6296C67A7000F3B90 /* Assets.xcassets in Resources */,
+				BE8D7339298966BA001CB176 /* 庞门正道标题体2.0增强版.ttf in Resources */,
 				BE8B645D29797E89007F39CD /* CYTabBar.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

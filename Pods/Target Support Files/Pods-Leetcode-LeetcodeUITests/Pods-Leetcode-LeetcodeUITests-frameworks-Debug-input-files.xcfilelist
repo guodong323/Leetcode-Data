@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-Leetcode-LeetcodeUITests/Pods-Leetcode-LeetcodeUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/FlexibleGauge/FlexibleGauge.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
 ${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
 ${BUILT_PRODUCTS_DIR}/ORCharts/ORCharts.framework

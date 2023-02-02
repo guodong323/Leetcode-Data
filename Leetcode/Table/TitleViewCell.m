@@ -12,6 +12,7 @@
 
 - (instancetype) initWithFrame:(CGRect)frame {
     if ([super initWithFrame:frame]) {
+        self.backgroundColor = [UIColor colorNamed:@"cellColor"];
         [self addSubview:self.titleLabel];
         [self addSubview:self.tagLabel];
         [self addSubview:self.timeLabel];
@@ -41,8 +42,10 @@
 - (UILabel *)titleLabel {
     if (!_titleLabel) {
         _titleLabel = [[UILabel alloc] init];
-        _titleLabel.text = @"Two Sum";
-        _titleLabel.backgroundColor = [UIColor redColor];
+        UIFont *font = [UIFont fontWithName:@"PangMenZhengDao" size:24];
+        _titleLabel.text = @"Two Sum and Prefix";
+        _titleLabel.font = font;
+//        _titleLabel.backgroundColor = [UIColor redColor];
     }
     return _titleLabel;
 }
@@ -52,7 +55,8 @@
         _tagLabel = [[UILabel alloc] init];
         _tagLabel.text = @"difference-between-element-sum-and-digit-sum-of-an-array";
         _tagLabel.numberOfLines = 0;
-        _tagLabel.backgroundColor = [UIColor greenColor];
+        UIFont *font = [UIFont fontWithName:@"Mukta Mahee" size:18];
+        _tagLabel.font = font;
     }
     return _tagLabel;
 }
@@ -61,7 +65,8 @@
     if (!_timeLabel) {
         _timeLabel = [[UILabel alloc] init];
         _timeLabel.text = @"2023.01.01";
-        _timeLabel.backgroundColor = [UIColor blueColor];
+        UIFont *font = [UIFont fontWithName:@"PangMenZhengDao" size:18];
+        _timeLabel.font = font;
     }
     return _timeLabel;
 }
